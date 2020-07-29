@@ -8,7 +8,7 @@
     }"
     v-on:click="isClicked"
   >
-    <img v-if="!this.state.isEmpty" :src="image_src" />
+    <img v-if="!this.state.isEmpty" :src="image" type="image/png" />
   </button>
 </template>
 

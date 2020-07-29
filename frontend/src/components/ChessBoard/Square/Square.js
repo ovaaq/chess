@@ -16,8 +16,8 @@ export default {
     is_black: function() {
       return this.state.x % 2 != this.state.y % 2;
     },
-    image_src: function() {
-      let white_king = require("@/assets/img/chess/white_king.png");
+    image: function() {
+      let white_king = require(`@/assets/img/chess/white_king.png`);
       let white_queen = require("@/assets/img/chess/white_queen.png");
       let white_bishop = require("@/assets/img/chess/white_bishop.png");
       let white_knight = require("@/assets/img/chess/white_knight.png");
